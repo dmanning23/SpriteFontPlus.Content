@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>SpriteFontPlus.Content</id>
+		<version>2.0.0</version>
+		<title>SpriteFontPlus.Content</title>
+		<authors>dmanning23</authors>
+		<owners>dmanning23</owners>
+		<projectUrl>https://github.com/dmanning23/SpriteFontPlus.Content</projectUrl>
+		<licenseUrl>https://github.com/dmanning23/SpriteFontPlus.Content/blob/master/LICENSE.txt</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Quick library for using SpriteFontPlus with the MonoGame content pipeline</description>
+		<releaseNotes />
+		<copyright>Copyright 2016</copyright>
+		<tags>android, ios, windows universal, monogame, xamarin</tags>
+		<dependencies>
+
+		</dependencies>
+	</metadata>
+	<files>
+
+		<file src="SpriteFontPlus.Content\bin\Release\SpriteFontPlus.Content.dll" target="content\Content\SpriteFontPlus.Content.dll" />
+
+	</files>
+</package>

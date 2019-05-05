@@ -13,7 +13,7 @@ namespace XmlBuddy.Content
 	/// extension, display name, and default processor for this importer.
 	/// </summary>
 	[ContentImporter(".ttf", DisplayName = "SpriteFontPlus Importer", DefaultProcessor = "BinaryFontDocumentProcessor")]
-	public class XmlSourceImporter : ContentImporter<byte[]>
+	public class BinaryFontSourceImporter : ContentImporter<byte[]>
 	{
 		public override byte[] Import(string filename, ContentImporterContext context)
 		{
